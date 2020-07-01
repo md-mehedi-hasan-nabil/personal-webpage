@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.peter h1 {
+    margin: 3% 0;
+    padding-bottom: 5%;
+}
+
+h2 {
+    margin: 2% 0;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 3% 0;
+}
+
+p {
+    margin-bottom: 6%;
+    color: rgb(112, 112, 112);
+}
+
+a {
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(236, 81, 149), rgb(236, 76, 118));
+}
+
+span {
+    color: rgb(236, 76, 122);
+}
+
+section {
+    min-height: 90vh;
+}
+
+img {
+    width: 80%;
+}
+
+.row {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+
+.row .col {
+    padding: 20% 0;
+}
+
+.peter {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.peter_dream {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container img {
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+}
+
+.last {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.last h1 {
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.box {
+    background: linear-gradient(45deg, rgb(236, 81, 149), rgb(236, 76, 118));
+    width: 650px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2% 7%;
+    color: #fff;
+}
+
+.box p {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    margin: 2% 0;
+}
